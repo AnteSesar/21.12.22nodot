@@ -7,9 +7,18 @@
     <title>21.12.22</title>
 </head>
 <style>
-    table, th, td {border: 1px solid black;}
+    table, th, td {border: 1px solid black;
+    border-collapse: collapse;}
 </style>
 <body>
+
+    <a href="./tablice.html">Vježba tablice</a>
+
+    
+    <br>
+    <br>
+    <br>
+
     <h2>Osnovna tablica s okvirima</h2>
     <table style="border:1px splid #333">
         <tr>
@@ -23,6 +32,12 @@
             <td>6</td>
         </tr>
     </table>
+    <br>
+    <br>
+    <br>
+
+
+
     <table style="width: 100%;">
         <thead>
             <tr>
@@ -41,5 +56,125 @@
             </tr>
         </tbody>
     </table>
+    <br>
+    <br>
+    <br>
+    <table style="width: 100%;">
+        
+            <tr>
+                <th>Ime</th>
+                <th style="width: 70%;">Prezime</th>
+                <th>Godine</th>
+            </tr>
+            <tr>
+                <td>Marko</td>
+                <td>Marković</td>
+                <td>20</td>
+            </tr>
+            <tr>
+                <td>John</td>
+                <td>Souls</td>
+                <td>9001</td>
+            </tr>
+        </table>
+        <br>
+        <br>
+        <br>
+        <table style="width: 100%;">
+        
+            <tr>
+                <th>Ime</th>
+                <td>Prezime</td>
+                <td>Godine</td>
+            </tr>
+            <tr>
+                <th>Marko</th>
+                <td>Marković</td>
+                <td>20</td>
+            </tr>
+            <tr>
+                <th>John</th>
+                <td>Souls</td>
+                <td>9001</td>
+            </tr>
+        </table>
+        <br>
+        <br>
+        <br>
+        <table>
+        
+            <tr>
+                <td rowspan="3" width="160">Prvi stupac</td>
+                <td width="160" >Prvi redak</td>
+            </tr>
+            <tr>
+                <td>Drugi redak</td>
+            </tr>
+            <tr>
+                <td>Treći redak</td>
+            </tr>
+        </table>
+        <br>
+        <br>
+        <br>
+        <table>
+        
+            <tr>
+                <td colspan="3" width="320">Prvi redak</td>
+            </tr>
+            <tr>
+                <td>Prvi stupac</td>
+                <td>Drugi stupac</td>
+                <td>Treći stupac</td>
+            </tr>
+            
+        </table>
+        <br>
+        <br>
+        <br>
+        <table id="prva" border="1">
+        
+            <tr>
+                <td>Prvi stupac</td>
+                <td>Drugi stupac</td>
+                <td>Treći stupac</td>
+                <td>Četvrti stupac</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td colspan="3">6</td>
+            </tr>
+            <tr>
+                <td colspan="2">7</td>
+                <td>8</td>
+                <td>9</td>
+            </tr>
+            <tr>
+                <td colspan="3">10</td>
+                <td>11</td>
+            </tr>
+            
+        </table>
+        <br>
+        <br>
+        <br>
+        <table id="druga" border="1">
+        
+            <tr>
+                <td rowspan="3">Prvi stupac</td>
+                <td rowspan="2">Drugi stupac</td>
+                <td>Treći stupac</td>
+                <td>Četvrti stupac</td>
+            </tr>
+            <tr>
+                <td rowspan="2">5</td>
+                <td>6</td>
+            </tr>
+            <tr>
+                <td>7</td>
+                <td>8</td>
+            </tr>
+            
+        </table>
 </body>
 </html>
